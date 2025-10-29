@@ -14,7 +14,7 @@ public class TTTTile extends JButton{
         return row;
     }
 
-    public void setRow(int row) {
+    public void setRow(int row, String player) {
         this.row = row;
     }
 
